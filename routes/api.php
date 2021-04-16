@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\CustomersController;
 use App\Http\Controllers\UsersController;
-use Illuminate\Foundation\Auth\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
