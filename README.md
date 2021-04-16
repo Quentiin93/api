@@ -1,6 +1,6 @@
 ## Documentation
 
-- install composer [composer] (https://getcomposer.org/)
+- install composer (https://getcomposer.org/)
 - composer install
 - php artisan db:create
 - php artisan migrate
