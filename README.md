@@ -9,12 +9,12 @@
 
 ## Routes
 
-    ### Users
+   ### Users
 - {server_name}/api/create_users
 - {server_name}/api/user/{id}
 - {server_name}/api/users
 
-    ### Customers
+   ### Customers
 - {server_name}/api/create_customers
 - {server_name}/api/customer/{id}
 - {server_name}/api/customers
