@@ -11,21 +11,21 @@
 
 **Users**
 - {server_name}/api/create_users
-    -username
-    -email
-    -password
+    - username
+    - email
+    - password
 - {server_name}/api/user/{id}
 - {server_name}/api/users
 
 **Customers**
 - {server_name}/api/create_customers
-    -username
-    -first_name
-    -last_name
-    -email
-    -adress
-    -city
-    -phone_number
+    - username
+    - first_name
+    - last_name
+    - email
+    - adress
+    - city
+    - phone_number
 - {server_name}/api/customer/{id}
 - {server_name}/api/customers
 
