@@ -2,7 +2,7 @@
 
 - install composer (https://getcomposer.org/)
 - composer install
-- php artisan db:create
+- php artisan db:create (if no name is given, the value will be that of the .env file)
 - php artisan migrate
 - php artisan db:seed
 - php artisan serve

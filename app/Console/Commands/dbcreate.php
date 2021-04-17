@@ -4,8 +4,7 @@ namespace App\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 
-class dbcreate extends Command
-{
+class dbcreate extends Command {
     /**
      * The name and signature of the console command.
      *
@@ -25,8 +24,7 @@ class dbcreate extends Command
      *
      * @return void
      */
-    public function __construct()
-    {
+    public function __construct() {
         parent::__construct();
     }
 
@@ -35,8 +33,8 @@ class dbcreate extends Command
      *
      * @return mixed
      */
-    public function handle()
-    {
+    public function handle() {
+
         $schemaName = $this->argument('name') ?: config("database.connections.mysql.database");
         $charset = config("database.connections.mysql.charset",'utf8_general_ci');
         $collation = config("database.connections.mysql.collation",'utf8_general_ci');
