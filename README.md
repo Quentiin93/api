@@ -10,15 +10,15 @@
 ## Routes
 
 **Users**
-- {server_name}/api/create_users
+- POST: {server_name}/api/create_users
     - username
     - email
     - password
-- {server_name}/api/user/{id}
-- {server_name}/api/users
+- GET: {server_name}/api/user/{id}
+- GET: {server_name}/api/users
 
 **Customers**
-- {server_name}/api/create_customers
+- POST: {server_name}/api/create_customers
     - username
     - first_name
     - last_name
@@ -26,8 +26,8 @@
     - adress
     - city
     - phone_number
-- {server_name}/api/customer/{id}
-- {server_name}/api/customers
+- GET: {server_name}/api/customer/{id}
+- GET: {server_name}/api/customers
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
